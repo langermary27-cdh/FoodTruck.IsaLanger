@@ -13,4 +13,9 @@ public class Food
         this.calories = calories;
         this.price = price;
     }
+
+    public String toString()
+    {
+        return foodName + " (" + calories + "): $" + price;
+    }
 }
